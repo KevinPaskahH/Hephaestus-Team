@@ -1,0 +1,538 @@
+.image-8-icon {
+    height: 80px;
+    width: 40.7px;
+    position: relative;
+    object-fit: cover;
+}
+
+.image-8-wrapper {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-7xl) 0 var(--padding-xl);
+}
+
+.sign-up1 {
+    align-self: stretch;
+    height: 64px;
+    position: relative;
+    font-size: 36px;
+    display: inline-block;
+    font-family: var(--header-text);
+    color: var(--warna-gelap);
+    text-align: center;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.frame-button,
+.frame-wrapper1 {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    flex: 1;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.frame-wrapper1 {
+    height: 158px;
+    flex-direction: row;
+    padding: 0 var(--padding-58xl);
+    box-sizing: border-box;
+}
+
+.nama-depan {
+    position: relative;
+    font-size: var(--font-size-mini);
+    font-family: var(--header-text);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    min-width: 101px;
+}
+
+.last-name-label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs);
+}
+
+.frame-item {
+    border: 3px solid var(--gradasi-1);
+    outline: 0;
+    background-color: var(--putih);
+    align-self: stretch;
+    height: 42px;
+    position: relative;
+    border-radius: var(--br-11xl);
+    box-sizing: border-box;
+    mix-blend-mode: normal;
+    min-width: 115px;
+}
+
+.last-name-label-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+
+.email {
+    width: 43px;
+    position: relative;
+    font-size: var(--font-size-mini);
+    font-family: var(--header-text);
+    color: var(--color-black);
+    text-align: center;
+    display: inline-block;
+    min-width: 43px;
+}
+
+.email-wrapper,
+.nama-depan-label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.email-wrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-10xs);
+}
+
+.nama-depan-label {
+    flex: 1;
+    flex-direction: column;
+    gap: 35px;
+    min-width: 125px;
+}
+
+.frame-inner,
+.nama-belakang {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.nama-belakang {
+    width: 142px;
+    font-size: var(--font-size-mini);
+    font-family: var(--header-text);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    padding-right: var(--padding-xl);
+}
+
+.frame-inner {
+    align-self: stretch;
+    height: 42px;
+    border-radius: var(--br-11xl);
+    background-color: var(--putih);
+    border: 3px solid var(--gradasi-1);
+    mix-blend-mode: normal;
+}
+
+.nama-belakang-parent,
+.nama-depan-label-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.nama-belakang-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-5xs);
+    min-width: 125px;
+}
+
+.nama-depan-label-parent {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 47px;
+}
+
+.rectangle-input {
+    border: 3px solid var(--gradasi-1);
+    outline: 0;
+    background-color: var(--putih);
+    align-self: stretch;
+    height: 42px;
+    position: relative;
+    border-radius: var(--br-11xl);
+    box-sizing: border-box;
+    mix-blend-mode: normal;
+    min-width: 250px;
+}
+
+.frame-parent2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 8px;
+    gap: var(--gap-5xs);
+}
+
+.frame-child1,
+.kata-sandi {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.kata-sandi {
+    width: 101px;
+    font-size: var(--font-size-mini);
+    font-family: var(--header-text);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    padding-right: var(--padding-xl);
+}
+
+.frame-child1 {
+    border: 3px solid var(--gradasi-1);
+    outline: 0;
+    background-color: var(--putih);
+    align-self: stretch;
+    height: 42px;
+    border-radius: var(--br-11xl);
+    mix-blend-mode: normal;
+    min-width: 250px;
+}
+
+.kata-sandi-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+
+.frame-child2,
+.konfirmasi-kata-sandi {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.konfirmasi-kata-sandi {
+    width: 186px;
+    font-size: var(--font-size-mini);
+    font-family: var(--header-text);
+    color: var(--color-black);
+    text-align: center;
+    display: inline-block;
+    padding-right: var(--padding-xl);
+}
+
+.frame-child2 {
+    border: 3px solid var(--gradasi-1);
+    outline: 0;
+    background-color: var(--putih);
+    align-self: stretch;
+    height: 42px;
+    border-radius: var(--br-11xl);
+    mix-blend-mode: normal;
+    min-width: 250px;
+}
+
+.frame-parent3,
+.konfirmasi-kata-sandi-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.konfirmasi-kata-sandi-parent {
+    gap: var(--gap-5xs);
+}
+
+.frame-parent3 {
+    padding: 0 var(--padding-10xs) 17px 0;
+    gap: 34px;
+}
+
+.already-have-account {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-11xl);
+    background: linear-gradient(180deg, #bdf14d, #e2f14d);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.sign-up2 {
+    position: absolute;
+    top: 13px;
+    left: 97px;
+    font-size: var(--font-size-lg);
+    display: inline-block;
+    font-family: var(--header-text);
+    color: var(--warna-gelap);
+    text-align: center;
+    min-width: 74px;
+    z-index: 1;
+}
+
+.already-have-account-parent {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 47px;
+    flex: 1;
+    position: relative;
+    white-space: nowrap;
+}
+
+.frame-wrapper2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 84px 0 var(--padding-58xl);
+}
+
+.sudah-punya-akun {
+    color: var(--color-black);
+}
+
+.span {
+    color: var(--color-mediumblue);
+}
+
+.log-in1 {
+    text-decoration: underline;
+}
+
+.log-in {
+    color: var(--color-mediumblue);
+}
+
+.sudah-punya-akun-container {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-mini);
+    font-family: var(--header-text);
+    text-align: center;
+    cursor: pointer;
+}
+
+.sudah-punya-akun-log-in-wrapper {
+    width: 410px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-47xl);
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.frame-parent1 {
+    align-self: stretch;
+    gap: 29px;
+}
+
+.frame-form,
+.frame-parent1,
+.sign-up-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.frame-form {
+    margin: 0;
+    align-self: stretch;
+    gap: 40px;
+}
+
+.sign-up-inner {
+    width: 431px;
+    padding: var(--padding-xl) 0 0;
+    box-sizing: border-box;
+    min-width: 431px;
+}
+
+.rectangle-div {
+    width: 630px;
+    height: 832px;
+    position: relative;
+    border-radius: var(--br-31xl) 0 0 var(--br-31xl);
+    background: linear-gradient(180deg, #fdfa74, #46eaaa);
+    display: none;
+    max-width: 100%;
+}
+
+.temukan-inspirasi-baru {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.temukan-inspirasi-baru-wrapper {
+    width: 473.8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 66.4px 0 var(--padding-47xl);
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.objects-icon {
+    align-self: stretch;
+    height: 508.1px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.rectangle-parent,
+.sign-up {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.rectangle-parent {
+    flex: 1;
+    border-radius: var(--br-31xl) 0 0 var(--br-31xl);
+    background: linear-gradient(180deg, #fdfa74, #46eaaa);
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 74px 67.6px var(--padding-51xl-9);
+    gap: 81px;
+    min-width: 409px;
+    max-width: 100%;
+}
+
+.sign-up {
+    width: 100%;
+    position: relative;
+    background-color: var(--putih);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 0 113px;
+    gap: 106px;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: var(--header-text-size);
+    color: var(--warna-gelap);
+    font-family: var(--header-text);
+}
+
+@media screen and (max-width: 1025px) {
+    .sign-up-inner {
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .sign-up1 {
+        font-size: var(--font-size-10xl);
+    }
+    .temukan-inspirasi-baru {
+        font-size: var(--font-size-13xl);
+    }
+    .sign-up {
+        flex-wrap: wrap;
+        padding-left: var(--padding-xl);
+        padding-right: var(--padding-xl);
+        padding-bottom: var(--padding-xl);
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .sign-up-inner {
+        min-width: 100%;
+    }
+    .temukan-inspirasi-baru-wrapper {
+        padding-left: var(--padding-14xl);
+        padding-right: var(--padding-14xl);
+        box-sizing: border-box;
+    }
+    .rectangle-parent {
+        gap: 40px 81px;
+        padding: 48px var(--padding-15xl) var(--padding-27xl);
+        box-sizing: border-box;
+        min-width: 100%;
+    }
+    .sign-up {
+        gap: 106px 53px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .sign-up1 {
+        font-size: 22px;
+    }
+    .frame-wrapper1 {
+        padding-left: var(--padding-xl);
+        padding-right: var(--padding-xl);
+        box-sizing: border-box;
+    }
+    .nama-depan-label-parent {
+        flex-wrap: wrap;
+        gap: 47px 23px;
+    }
+    .frame-parent3 {
+        gap: 17px 34px;
+    }
+    .frame-wrapper2,
+    .sudah-punya-akun-log-in-wrapper {
+        padding-left: var(--padding-xl);
+        padding-right: var(--padding-xl);
+        box-sizing: border-box;
+    }
+    .frame-form {
+        gap: 20px 40px;
+    }
+    .temukan-inspirasi-baru {
+        font-size: var(--font-size-5xl);
+    }
+    .rectangle-parent {
+        gap: 20px 81px;
+    }
+    .sign-up {
+        gap: 106px 26px;
+    }
+}

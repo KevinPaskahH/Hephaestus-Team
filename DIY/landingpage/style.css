@@ -1,0 +1,257 @@
+.frame-icon {
+    height: 125.5px;
+    width: 167.1px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.login {
+    position: relative;
+    font-size: var(--font-size-lg);
+    display: inline-block;
+    font-family: var(--font-montserrat);
+    color: var(--color-darkslategray);
+    text-align: left;
+    min-width: 61px;
+}
+
+.frame,
+.frame-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.frame {
+    cursor: pointer;
+    border: 0;
+    padding: 12px 56px 13px;
+    background-color: transparent;
+    border-radius: var(--br-11xl);
+    background: linear-gradient(180deg, #bdf14d, #e2f14d);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-shrink: 0;
+}
+
+.frame-wrapper {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 15.5px;
+}
+
+.frame-parent {
+    width: 473px;
+    height: 108.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 46px 0 0 20px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.kreativitas-anda {
+    color: #8eee43;
+}
+
+.sambut-kreativitas-anda-container {
+    margin: 0;
+    position: absolute;
+    top: 121px;
+    left: 70px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    width: 677px;
+}
+
+.temukan-koleksi-barang {
+    position: absolute;
+    top: 283px;
+    left: 70px;
+    text-align: justify;
+    display: inline-block;
+    width: 637px;
+}
+
+.frame-child {
+    position: absolute;
+    top: 434px;
+    left: 0;
+    border-radius: var(--br-11xl);
+    background: linear-gradient(180deg, #bdf14d, #e2f14d);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 270px;
+    height: 47px;
+    cursor: pointer;
+}
+
+.frame2,
+.mulai-jelajahi {
+    position: absolute;
+    left: 70px;
+}
+
+.mulai-jelajahi {
+    top: 446px;
+    display: inline-block;
+    min-width: 129px;
+    z-index: 2;
+}
+
+.frame2 {
+    top: 0;
+    width: 270px;
+    height: 481px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.frame-icon1 {
+    top: 503px;
+    left: -41px;
+    width: 1322.9px;
+    height: 186.1px;
+}
+
+.frame-icon1,
+.frame-icon2,
+.frame-icon3 {
+    position: absolute;
+    overflow: hidden;
+}
+
+.frame-icon2 {
+    top: 486.5px;
+    left: 48px;
+    width: 1140.6px;
+    height: 178.2px;
+    z-index: 1;
+}
+
+.frame-icon3 {
+    top: 0;
+    left: 0;
+    width: 22px;
+    height: 54px;
+}
+
+.frame-container,
+.frame-icon4 {
+    position: absolute;
+    top: 0;
+    width: 22px;
+    height: 86px;
+}
+
+.frame-icon4 {
+    left: 0;
+    overflow: hidden;
+}
+
+.frame-container {
+    left: 48px;
+}
+
+.frame-icon5,
+.frame-icon6 {
+    position: absolute;
+    top: 0;
+    left: 502px;
+    width: 108.7px;
+    height: 42.9px;
+    overflow: hidden;
+}
+
+.frame-icon6 {
+    left: 69.7px;
+    width: 369.8px;
+    height: 467.5px;
+}
+
+.frame-div,
+.frame-group,
+.frame-icon7 {
+    position: absolute;
+    top: 0;
+    width: 500px;
+    height: 518px;
+}
+
+.frame-icon7 {
+    left: 0;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.frame-div,
+.frame-group {
+    left: 736px;
+}
+
+.frame-group {
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.frame1,
+.landing-page {
+    position: relative;
+    overflow: hidden;
+}
+
+.frame1 {
+    margin-right: -72px;
+    width: 1282px;
+    height: 689px;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--color-darkslategray);
+    font-family: var(--font-montserrat);
+}
+
+.landing-page {
+    width: 100%;
+    height: 832px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 70px 723.5px 0;
+    box-sizing: border-box;
+    gap: 39.5px;
+    letter-spacing: normal;
+}
+
+@media screen and (max-width: 1200px) {
+    .landing-page {
+        padding-right: 35px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .sambut-kreativitas-anda-container {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .landing-page {
+        gap: 20px 39.5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .sambut-kreativitas-anda-container {
+        font-size: 24px;
+    }
+}
